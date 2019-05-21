@@ -3,7 +3,7 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="(i,index) in imgNodes" :key="index">
-          <img v-lazy="i" :src="i" alt="img"/>
+          <img :src="i" alt="img"/>
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -59,6 +59,7 @@
     width 100%
     height 367.5px
     font-size 200px
+    margin-top 146px
     .swiper-slide
       position relative
       img

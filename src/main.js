@@ -10,5 +10,5 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   render:h => h(App),
-  router //配置路由器
+  router, //配置路由器
 })

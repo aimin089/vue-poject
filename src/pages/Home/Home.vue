@@ -2,20 +2,21 @@
 	<div id="homeContainer">
     <Header/>
     <Swiper/>
+    <Service/>
 	</div>
 </template>
 
 <script>
   import Header from '../../components/Header/Header'
-  import Swiper from './components/Swiper'
-
-  
+  import Swiper from './Swiper/Swiper'
+  import Service from './Service/Service'
 
   export default {
     name: 'Home',
     components:{
       Header,
-      Swiper
+      Swiper,
+      Service,
     }
   }
 </script>

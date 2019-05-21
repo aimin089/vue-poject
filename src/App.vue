@@ -6,13 +6,13 @@
 </template>
 
 <script>
-  import FooterNav from '../src/components/FooterNav/FooterNav'
+  import FooterNav from './components/FooterNav/FooterNav'
   
   export default {
     name: 'App',
     components:{
       FooterNav
-    }
+    },
   }
 </script>
 
